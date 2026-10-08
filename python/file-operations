@@ -1,0 +1,11 @@
+# write a new file 
+with open("new-file", "w") as f: 
+    f.write("Some text in the new file, created by python")
+
+# read a new file 
+with open("new-file", "r") as f: 
+    contents = f.read()
+    print(f"the third element in the contexts is: {contents[2]}")
+    print (f"Contents of the new-file: {contents}")
+    contents = 12233344445555
+    
